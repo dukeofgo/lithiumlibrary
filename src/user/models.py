@@ -4,7 +4,6 @@ from typing import List
 from sqlalchemy import Boolean, Date, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from ..books import models
 from ..database import Base
 from .schemas import UserStatus
 

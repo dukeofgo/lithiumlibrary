@@ -2,7 +2,7 @@ from datetime import date, datetime
 from enum import Enum
 
 from pydantic import BaseModel
-from ..books import schemas
+from ..book import schemas
 
 class UserStatus(str, Enum):
     SUPERUSER = "superuser"
