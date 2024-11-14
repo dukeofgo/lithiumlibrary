@@ -2,9 +2,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .auth import router as auth_router
-from .books import router as books_router
+from .book import router as books_router
 from .database import Base, engine
-from .users import router as users_router
+from .user import router as users_router
 
 Base.metadata.create_all(engine)
 
